@@ -1,0 +1,324 @@
+
+	/*Main container specifications*/
+.wrapper {
+	float: left; 
+	width:100% ; 
+	height:auto ; 
+	padding: 10px; 
+	margin: 0px; 
+	display: inline; 
+	background:rgb(40,69,100);
+	border: 5px solid #274060;
+	
+}
+	/*Standard row container specifications*/
+.row{
+	float: left; 
+	width:100%; 
+	height:auto; 
+	padding: 0px; 
+	margin: 00px; 
+	background:rgb(40,69,100);
+	display:block;
+	vertical-align: middle;
+	text-align:middle;
+	
+	
+	}
+	
+	/*Variation of a standard row container specifications*/
+.rowbreak{
+	float: left; 
+	width:99%; 
+	height:auto; 
+	padding: 0px; 
+	margin: 00px; 
+	background:rgb(40,69,100);
+	display:block;
+	
+	
+	}	
+	
+	
+	/*Variation of a standard row container specifications*/
+.rowborder{
+	float: left; 
+	width:99%; 
+	height:auto; 
+	padding: 0px; 
+	margin: 00px; 
+	background:rgb(15,25,38);
+	display:block;
+	border: 5px solid #274060;
+	
+	}		
+	
+	
+	/*Standard column container specifications*/
+.column{
+	float: left; 
+	width:19.8% ; 
+	height:520px ; 
+	padding: 12px; 
+	margin: 0px; 
+	display: inline; 
+	background:rgb(0,0,0);
+	border: 5px solid #274060;
+
+}
+	/*Variation of a standard column container specifications*/
+.columntwo{
+	float: left; 
+	width:33% ; 
+	height:520px ; 
+	padding: 12px; 
+	margin: 0px; 
+	display: inline; 
+	background:rgb(0,0,0);
+	border: 5px solid #274060;
+
+}
+
+.columnthree{
+	float: left; 
+	width: 14.28% ; 
+	height:520px ; 
+	padding: 12px; 
+	margin: 0px; 
+	display: inline; 
+	background:rgb(0,0,0);
+	border: 5px solid #274060;
+
+}
+/*position absolute box*/
+.a {
+	position:absolute; 
+	left:1500px; 
+	top:890px;
+	
+	}
+/*unordered list specifications*/
+ul {
+	list-style-type: none;
+	margin: 16px;
+	padding:0px;
+	overflow: hidden;
+	background-color: rgb(20,36,51);
+	width: 98.2%;
+	text-align:centre;
+	border: 5px solid #274060;
+	align-self: center; /*need to work out how to centralize navbar*/
+	
+}
+
+
+/* list specifications*/
+li {
+	float: left;
+	width:16.66%;
+	
+}
+
+/*list specifications*/
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 15px;
+	text-decoration: none;
+	width: 100%;
+	font-size: 26px;
+	list-style: none;
+	border: 1px solid #274060;
+	font-family: Blippo, fantasy; /*adjust this*/
+	
+}
+/*The colour change when you hover over menu button*/
+li a:hover {
+  background-color: rgb(35,60,89);
+  border: 1px solid gray;
+}
+
+/*Font style for all paragraph text*/
+p {
+	font-family: Blippo, fantasy;
+	color: white;
+	text-align: centre;
+	
+}
+
+
+h1 {
+	font-family: Blippo, fantasy;
+	color: white;
+	text-align: centre;
+}
+h2 {
+	font-family: Blippo, fantasy;
+	color: white;
+	text-align: centre;
+}
+
+/*Slide Show */
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1500px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/5 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+/*Keyframes are the Animation Style*/
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+
+/*Drop Button Specifications*/
+.dropbtn {
+  background-color: #3498DB;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+ text-align: center;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  width:100%;
+  text-align: center;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  width:100%;
+  text-align: center;
+  
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  width:100%;
+  text-align: center;
+}
+
+.dropdown-content a:hover {
+	background-color: #ddd;
+
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+.dropdown:hover .dropbtn {
+	background-color: #3e8e41;
+
+	}
+
+	
+	imgone{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+	}
+
+
+

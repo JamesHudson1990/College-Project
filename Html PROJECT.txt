@@ -1,0 +1,39 @@
+<html>
+<head>
+<title>Amazing Movies</title>
+
+<style type = "text/css">
+div#side {float: left; width:240px; height:550px; padding: 10px; margin: 15px; border: 5px solid blue; display: inline;}
+div#centre {float: left; width:450px; height:950px; padding: 10px; margin: 15px; border: 5px solid green; display: inline;}
+div#row {float: left; width:960px; padding: 10px; margin: 15px; border: 5px solid red; display: inline;}
+
+</head>
+</style>
+
+<body>
+
+<div id="row">
+<p> <font size="7">Now Showing...</font></p>
+
+</div>
+
+<div id="side">
+<h2> <font size="7" face= "Arial" color = "Blue">Predator </font> </h2>
+<p> <font size="4" face= "Arial" color = "Black"> Everyones Favourite Alien that murders nobs with guns.. or knifes.. or teaspoons...</font></p>
+<br><br>
+<p> <img src="Predator.jpg"alt="Predator" height="240" width="240">
+</p> </div>
+
+<div id="centre">
+<h2> <font size="7" face= "Arial" color = "Red">Alien </font> </h2>
+<p> <font size="4" face= "Arial" color = "Black"> Acid blood and two jaws whats to like...</font></p>
+<br><br>
+<p> <img src="Alien.jpg"alt="Alien" height="240" width="240">
+</p>
+
+</div>
+
+<div id="side">
+<h2> rigth column </h2>
+<p> space: the final frontier. </p>
+<br><br><br><image src="mccoy1.jpg" width="180"> </div>
